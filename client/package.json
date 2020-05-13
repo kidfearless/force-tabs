@@ -1,0 +1,25 @@
+{
+	"name": "python-tabs-client",
+	"description": "VSCode part of a language server",
+	"author": "KiD-Fearless",
+	"license": "MIT",
+	"version": "0.0.1",
+	"publisher": "kidfearless",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kidfearless/python-tabs"
+	},
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"scripts": {
+		"update-vscode": "vscode-install",
+		"postinstall": "vscode-install"
+	},
+	"dependencies": {
+		"vscode-languageclient": "^5.2.1"
+	},
+	"devDependencies": {
+		"vscode": "^1.1.35"
+	}
+}
